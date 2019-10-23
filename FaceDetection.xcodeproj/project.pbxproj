@@ -3,25 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614FB80F052D7C319B47B8C5 /* Pods_FaceDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772A8FAB7A5F3F2F4E3C9344 /* Pods_FaceDetection.framework */; };
 		AF4FBCDC233B3D950091464A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FBCDB233B3D950091464A /* AppDelegate.swift */; };
-		AF4FBCDE233B3D950091464A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FBCDD233B3D950091464A /* ViewController.swift */; };
+		AF4FBCDE233B3D950091464A /* FaceRecognizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FBCDD233B3D950091464A /* FaceRecognizationViewController.swift */; };
 		AF4FBCE1233B3D950091464A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4FBCDF233B3D950091464A /* Main.storyboard */; };
 		AF4FBCE3233B3D960091464A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4FBCE2233B3D960091464A /* Assets.xcassets */; };
 		AF4FBCE6233B3D960091464A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4FBCE4233B3D960091464A /* LaunchScreen.storyboard */; };
+		AF4FBD02233CA82C0091464A /* NostalgiaCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF4FBD01233CA82C0091464A /* NostalgiaCamera.mm */; };
+		AF4FBD09234723F10091464A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF4FBD08234723F10091464A /* GoogleService-Info.plist */; };
+		AF61A7392356EE5A00578598 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61A7382356EE5A00578598 /* SegmentViewController.swift */; };
+		AF61A73B2356F04D00578598 /* TranslateTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61A73A2356F04D00578598 /* TranslateTextViewController.swift */; };
+		AF61A73D2356F06600578598 /* ObjectDetectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF61A73C2356F06600578598 /* ObjectDetectedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		569A4DE97390540D1B41A0B9 /* Pods-FaceDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceDetection.debug.xcconfig"; path = "Target Support Files/Pods-FaceDetection/Pods-FaceDetection.debug.xcconfig"; sourceTree = "<group>"; };
+		772A8FAB7A5F3F2F4E3C9344 /* Pods_FaceDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4644D95A6BA005B808C3DE3 /* Pods-FaceDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceDetection.release.xcconfig"; path = "Target Support Files/Pods-FaceDetection/Pods-FaceDetection.release.xcconfig"; sourceTree = "<group>"; };
 		AF4FBCD8233B3D950091464A /* FaceDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4FBCDB233B3D950091464A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF4FBCDD233B3D950091464A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF4FBCDD233B3D950091464A /* FaceRecognizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognizationViewController.swift; sourceTree = "<group>"; };
 		AF4FBCE0233B3D950091464A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF4FBCE2233B3D960091464A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4FBCE5233B3D960091464A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF4FBCE7233B3D960091464A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4FBCFD233CA0200091464A /* NostalgiaCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NostalgiaCamera.h; sourceTree = "<group>"; };
+		AF4FBD01233CA82C0091464A /* NostalgiaCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NostalgiaCamera.mm; sourceTree = "<group>"; };
+		AF4FBD03233CB3630091464A /* FaceDetection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceDetection-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF4FBD08234723F10091464A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF61A7382356EE5A00578598 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+		AF61A73A2356F04D00578598 /* TranslateTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateTextViewController.swift; sourceTree = "<group>"; };
+		AF61A73C2356F06600578598 /* ObjectDetectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614FB80F052D7C319B47B8C5 /* Pods_FaceDetection.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A378C238C0EE8E89C7C5253C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				569A4DE97390540D1B41A0B9 /* Pods-FaceDetection.debug.xcconfig */,
+				A4644D95A6BA005B808C3DE3 /* Pods-FaceDetection.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A836CBD0BF0E8D059E58C3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				772A8FAB7A5F3F2F4E3C9344 /* Pods_FaceDetection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF4FBCCF233B3D950091464A = {
 			isa = PBXGroup;
 			children = (
 				AF4FBCDA233B3D950091464A /* FaceDetection */,
 				AF4FBCD9233B3D950091464A /* Products */,
+				A378C238C0EE8E89C7C5253C /* Pods */,
+				A836CBD0BF0E8D059E58C3BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,45 @@
 		AF4FBCDA233B3D950091464A /* FaceDetection */ = {
 			isa = PBXGroup;
 			children = (
-				AF4FBCDB233B3D950091464A /* AppDelegate.swift */,
-				AF4FBCDD233B3D950091464A /* ViewController.swift */,
-				AF4FBCDF233B3D950091464A /* Main.storyboard */,
-				AF4FBCE2233B3D960091464A /* Assets.xcassets */,
+				AF61A7372356E79600578598 /* View Controller */,
+				AF61A7362356E78E00578598 /* View */,
+				AF61A7352356E78600578598 /* Model */,
+				AF4FBCDD233B3D950091464A /* FaceRecognizationViewController.swift */,
+				AF61A7382356EE5A00578598 /* SegmentViewController.swift */,
+				AF61A73A2356F04D00578598 /* TranslateTextViewController.swift */,
+				AF61A73C2356F06600578598 /* ObjectDetectedViewController.swift */,
 				AF4FBCE4233B3D960091464A /* LaunchScreen.storyboard */,
+				AF4FBCDF233B3D950091464A /* Main.storyboard */,
+				AF4FBD08234723F10091464A /* GoogleService-Info.plist */,
+				AF4FBCDB233B3D950091464A /* AppDelegate.swift */,
+				AF4FBCE2233B3D960091464A /* Assets.xcassets */,
 				AF4FBCE7233B3D960091464A /* Info.plist */,
+				AF4FBCFD233CA0200091464A /* NostalgiaCamera.h */,
+				AF4FBD01233CA82C0091464A /* NostalgiaCamera.mm */,
+				AF4FBD03233CB3630091464A /* FaceDetection-Bridging-Header.h */,
 			);
 			path = FaceDetection;
+			sourceTree = "<group>";
+		};
+		AF61A7352356E78600578598 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF61A7362356E78E00578598 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF61A7372356E79600578598 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF4FBCEA233B3D960091464A /* Build configuration list for PBXNativeTarget "FaceDetection" */;
 			buildPhases = (
+				7AC9DE083CD12AD3DDE0A335 /* [CP] Check Pods Manifest.lock */,
 				AF4FBCD4233B3D950091464A /* Sources */,
 				AF4FBCD5233B3D950091464A /* Frameworks */,
 				AF4FBCD6233B3D950091464A /* Resources */,
+				321E1A82A3E1DE3C995478F4 /* [CP] Embed Pods Frameworks */,
+				DBCCEEBFDFBE5E8CF5A6F321 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +166,7 @@
 				TargetAttributes = {
 					AF4FBCD7233B3D950091464A = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -123,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4FBCE6233B3D960091464A /* LaunchScreen.storyboard in Resources */,
+				AF4FBD09234723F10091464A /* GoogleService-Info.plist in Resources */,
 				AF4FBCE3233B3D960091464A /* Assets.xcassets in Resources */,
 				AF4FBCE1233B3D950091464A /* Main.storyboard in Resources */,
 			);
@@ -130,13 +202,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		321E1A82A3E1DE3C995478F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceDetection/Pods-FaceDetection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceDetection/Pods-FaceDetection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaceDetection/Pods-FaceDetection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC9DE083CD12AD3DDE0A335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaceDetection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBCCEEBFDFBE5E8CF5A6F321 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceDetection/Pods-FaceDetection-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceDetection/Pods-FaceDetection-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaceDetection/Pods-FaceDetection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF4FBCD4233B3D950091464A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4FBCDE233B3D950091464A /* ViewController.swift in Sources */,
+				AF61A73B2356F04D00578598 /* TranslateTextViewController.swift in Sources */,
+				AF61A7392356EE5A00578598 /* SegmentViewController.swift in Sources */,
+				AF4FBD02233CA82C0091464A /* NostalgiaCamera.mm in Sources */,
+				AF4FBCDE233B3D950091464A /* FaceRecognizationViewController.swift in Sources */,
 				AF4FBCDC233B3D950091464A /* AppDelegate.swift in Sources */,
+				AF61A73D2356F06600578598 /* ObjectDetectedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,17 +415,24 @@
 		};
 		AF4FBCEB233B3D960091464A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 569A4DE97390540D1B41A0B9 /* Pods-FaceDetection.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = H6JC5KK2C2;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FaceDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.synoptek.chatapp.FaceDetection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synoptek.chatapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Synoptek_ChatApp_Devlopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceDetection/FaceDetection-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +440,23 @@
 		};
 		AF4FBCEC233B3D960091464A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4644D95A6BA005B808C3DE3 /* Pods-FaceDetection.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = H6JC5KK2C2;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FaceDetection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.synoptek.chatapp.FaceDetection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synoptek.chatapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Synoptek_ChatApp_Devlopment;
+				SWIFT_OBJC_BRIDGING_HEADER = "FaceDetection/FaceDetection-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
