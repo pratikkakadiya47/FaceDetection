@@ -12,7 +12,7 @@ class ObjectDetectedViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("binty desai")
+        print("binty")
         // Do any additional setup after loading the view.
     }
     
